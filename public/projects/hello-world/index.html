@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A first post to test the site — math rendering, code blocks, and formatting.">
+<meta name="author" content="Chris Wang">
+<title>Hello World · Chris Wang</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/main.min.8f5c9831870be4c3e84cf2c281e590338cf36724d704abed778083e141196e1d.css" integrity="sha256-j1yYMYcL5MPoTPLCgeWQM4zzZyTXBKvtd4CD4UEZbh0=">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$',  right: '$$',  display: true},
+      {left: '$',   right: '$',   display: false},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '\\(', right: '\\)', display: false}
+    ]
+  });"></script>
+
+
+</head>
+<body>
+  <nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">Chris Wang</a>
+    <ul class="nav-links">
+      
+      <li>
+        <a href="/work/"
+           >
+          Work
+        </a>
+      </li>
+      
+      <li>
+        <a href="/projects/"
+           class="active">
+          Projects
+        </a>
+      </li>
+      
+      <li>
+        <a href="/contact/"
+           >
+          Contact
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+  <main>
+    
+<div class="container">
+
+  <a class="back-link" href="/projects/">← Projects</a>
+
+  <article>
+    <header class="post-header">
+      <h1>Hello World</h1>
+      <div class="post-meta">
+        <time datetime="2026-03-15">
+          March 15, 2026
+        </time>
+        
+        <span class="post-tag">meta</span>
+        
+      </div>
+    </header>
+
+    <div class="post-content">
+      <p>This is a sample project post. Replace this with a write-up of something you built.</p>
+<h2 id="math-rendering">Math rendering</h2>
+<p>Inline math works with single dollar signs: the Euler identity is $e^{i\pi} + 1 = 0$.</p>
+<p>Display math uses double dollar signs:</p>
+<p>$$
+\int_{-\infty}^{\infty} e^{-x^2} , dx = \sqrt{\pi}
+$$</p>
+<p>You can also write block equations like:</p>
+<p>$$
+\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}
+$$</p>
+<h2 id="code-blocks">Code blocks</h2>
+<p>Code is syntax-highlighted automatically:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> numpy <span style="color:#ff79c6">as</span> np
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">softmax</span>(x):
+</span></span><span style="display:flex;"><span>    e_x <span style="color:#ff79c6">=</span> np<span style="color:#ff79c6">.</span>exp(x <span style="color:#ff79c6">-</span> np<span style="color:#ff79c6">.</span>max(x))
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> e_x <span style="color:#ff79c6">/</span> e_x<span style="color:#ff79c6">.</span>sum()
+</span></span></code></pre></div><h2 id="writing-new-posts">Writing new posts</h2>
+<p>To create a new post, add a <code>.md</code> file to <code>content/projects/</code> with this frontmatter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">title</span>: <span style="color:#f1fa8c">&#34;Your Post Title&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">date</span>: 2026-01-01
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">description</span>: <span style="color:#f1fa8c">&#34;One sentence shown in the post list.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">tags</span>: [<span style="color:#f1fa8c">&#34;tag1&#34;</span>, <span style="color:#f1fa8c">&#34;tag2&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">math</span>: <span style="color:#ff79c6">true</span>   <span style="color:#6272a4"># only needed if the post contains LaTeX</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>Then write the body in Markdown below the <code>---</code>.</p>
+
+    </div>
+  </article>
+
+</div>
+
+  </main>
+
+  <footer>
+  <div class="container">
+    <span>© 2026 Chris Wang</span>
+    &ensp;·&ensp;
+    <a href="https://github.com/chrisw47" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</footer>
+
+</body>
+</html>

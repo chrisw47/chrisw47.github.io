@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container">
+
+  <div class="home-hero">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="tagline">{{ .Params.tagline }}</p>
+    {{ with .Params.cv }}
+    <a class="cv-link" href="{{ . }}" target="_blank" rel="noopener">
+      ↓ Download CV
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="home-section">
+    <h2>About</h2>
+    {{ .Content }}
+  </div>
+
+  {{ $projects := where .Site.RegularPages "Section" "projects" }}
+  {{ if $projects }}
+  <div class="home-section">
+    <h2>Recent Posts</h2>
+    <ul class="post-list">
+      {{ range first 3 $projects }}
+      <li class="post-item">
+        <a class="post-item-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="post-item-date">{{ .Date.Format "Jan 2006" }}</span>
+        {{ with .Params.description }}
+        <p class="post-item-desc">{{ . }}</p>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}

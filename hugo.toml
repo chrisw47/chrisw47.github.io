@@ -1,0 +1,30 @@
+baseURL = 'https://chrisw47.github.io/'
+languageCode = 'en-us'
+title = 'Chris Wang'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in Markdown
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = false
+    noClasses = true
+
+[params]
+  description = "Chris Wang — researcher and developer"
+  author = "Chris Wang"
+
+[menu]
+  [[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3

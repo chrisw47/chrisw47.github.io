@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Chris Wang</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Chris Wang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/projects/hello-world/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hello-world/</guid>
+      <description>&lt;p&gt;This is a sample project post. Replace this with a write-up of something you built.&lt;/p&gt;&#xA;&lt;h2 id=&#34;math-rendering&#34;&gt;Math rendering&lt;/h2&gt;&#xA;&lt;p&gt;Inline math works with single dollar signs: the Euler identity is $e^{i\pi} + 1 = 0$.&lt;/p&gt;&#xA;&lt;p&gt;Display math uses double dollar signs:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\int_{-\infty}^{\infty} e^{-x^2} , dx = \sqrt{\pi}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;You can also write block equations like:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;code-blocks&#34;&gt;Code blocks&lt;/h2&gt;&#xA;&lt;p&gt;Code is syntax-highlighted automatically:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#ff79c6&#34;&gt;as&lt;/span&gt; np&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;softmax&lt;/span&gt;(x):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    e_x &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;exp(x &lt;span style=&#34;color:#ff79c6&#34;&gt;-&lt;/span&gt; np&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;max(x))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff79c6&#34;&gt;return&lt;/span&gt; e_x &lt;span style=&#34;color:#ff79c6&#34;&gt;/&lt;/span&gt; e_x&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;sum()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;writing-new-posts&#34;&gt;Writing new posts&lt;/h2&gt;&#xA;&lt;p&gt;To create a new post, add a &lt;code&gt;.md&lt;/code&gt; file to &lt;code&gt;content/projects/&lt;/code&gt; with this frontmatter:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
