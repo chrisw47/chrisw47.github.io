@@ -17,8 +17,8 @@ title = 'Chris Wang'
 
 [menu]
   [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Research"
+    url = "/research/"
     weight = 1
   [[menu.main]]
     name = "Projects"

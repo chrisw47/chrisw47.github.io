@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Write-ups on things I've built, experimented with, or found interesting."
+description: "Write-ups on things I've built, experimented with, or found interesting. Will be populated soon."
 ---

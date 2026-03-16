@@ -2,12 +2,17 @@
 <div class="container">
 
   <div class="home-hero">
-    <h1>{{ .Site.Title }}</h1>
-    <p class="tagline">{{ .Params.tagline }}</p>
-    {{ with .Params.cv }}
-    <a class="cv-link" href="{{ . }}" target="_blank" rel="noopener">
-      ↓ Download CV
-    </a>
+    <div class="home-hero-text">
+      <h1>{{ .Site.Title }}</h1>
+      <p class="tagline">{{ .Params.tagline }}</p>
+      {{ with .Params.cv }}
+      <a class="cv-link" href="{{ . }}" target="_blank" rel="noopener">
+        A Short CV
+      </a>
+      {{ end }}
+    </div>
+    {{ with .Params.photo }}
+    <img class="home-hero-photo" src="{{ . }}" alt="Photo of {{ $.Site.Title }}">
     {{ end }}
   </div>
 

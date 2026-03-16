@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Example Paper Title</title>
-      <link>http://localhost:1313/work/example-paper/</link>
+      <link>http://localhost:1313/research/example-paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/work/example-paper/</guid>
+      <guid>http://localhost:1313/research/example-paper/</guid>
       <description></description>
     </item>
   </channel>

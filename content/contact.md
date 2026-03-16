@@ -2,12 +2,16 @@
 title: "Contact"
 ---
 
-The best way to reach me is by email.
+For research queries, reach me at my institution-affiliated Pomona email. For other matters, reach me at my personal gmail.
 
 <ul class="contact-links">
   <li>
-    <span class="contact-label">Email</span>
-    <a href="mailto:you@example.com">you@example.com</a>
+    <span class="contact-label">Institutional Email</span>
+    <a href="mailto:cywb2021@mymail.pomona.edu">cywb2021@mymail.pomona.edu</a>
+  </li>
+  <li>
+    <span class="contact-label">Personal Email</span>
+    <a href="mailto:chrispersonalemail123@gmail.com">chrispersonalemail123@gmail.com</a>
   </li>
   <li>
     <span class="contact-label">GitHub</span>
@@ -15,6 +19,6 @@ The best way to reach me is by email.
   </li>
   <li>
     <span class="contact-label">LinkedIn</span>
-    <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">linkedin.com/in/yourhandle</a>
+    <a href="https://www.linkedin.com/in/chris-wang-314pi/" target="_blank" rel="noopener">linkedin.com/in/chris-wang-314pi/</a>
   </li>
 </ul>
