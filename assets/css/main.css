@@ -460,7 +460,7 @@ footer a:hover {
 .contact-label {
   font-size: 0.8rem;
   color: var(--text-muted);
-  min-width: 80px;
+  min-width: 160px;
 }
 
 /* ─── KaTeX overrides ────────────────────────────────────────────────────── */
