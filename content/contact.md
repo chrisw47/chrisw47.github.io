@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+layout: "contact"
 ---
 
 For research queries, reach me at my institution-affiliated Pomona email. For other matters, reach me at my personal gmail.
