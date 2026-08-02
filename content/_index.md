@@ -1,7 +1,7 @@
 ---
 title: "Chris Wang"
 tagline: "Researcher"
-cv: "/files/CW CV 0326.pdf"
+cv: "/files/CW CV 0801.pdf"
 photo: "/images/profile.jpg"
 ---
 
