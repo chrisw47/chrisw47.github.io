@@ -1,4 +1,4 @@
 ---
 title: "Research"
-description: "Research papers, preprints, and projects. Will be populated soon."
+description: "Research papers, preprints, presentations, and posters."
 ---

@@ -10,6 +10,9 @@
         <time datetime="{{ .Date.Format "2006-01-02" }}">
           {{ .Date.Format "January 2, 2006" }}
         </time>
+        {{ if .Params.wip }}
+        <span class="wip-badge">WIP! Last updated: {{ .Lastmod.Format "January 2, 2006" }}</span>
+        {{ end }}
         {{ range .Params.tags }}
         <span class="post-tag">{{ . }}</span>
         {{ end }}

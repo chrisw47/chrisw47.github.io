@@ -6,9 +6,15 @@
     {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
   </div>
 
+  {{ $papers := where .Pages "Params.category" "paper" }}
+  {{ $talks := where .Pages "Params.category" "talk" }}
+
   {{ if .Pages }}
+
+  {{ with $papers }}
+  <h2 class="section-subhead">Papers and Preprints</h2>
   <ul class="work-list">
-    {{ range .Pages }}
+    {{ range . }}
     <li class="work-item">
       <div class="work-item-title">{{ .Title }}</div>
       <div class="work-item-meta">
@@ -30,6 +36,35 @@
     </li>
     {{ end }}
   </ul>
+  {{ end }}
+
+  {{ with $talks }}
+  <h2 class="section-subhead">Talks and Posters</h2>
+  <ul class="work-list">
+    {{ range . }}
+    <li class="work-item">
+      <div class="work-item-title">{{ .Title }}</div>
+      <div class="work-item-meta">
+        {{ with .Params.authors }}{{ . }}{{ end }}
+        {{ with .Params.venue }} · <em>{{ . }}</em>{{ end }}
+        {{ with .Params.year }} · {{ . }}{{ end }}
+      </div>
+      {{ with .Params.description }}
+      <div class="work-item-desc">{{ . }}</div>
+      {{ end }}
+      {{ with .Params.links }}
+      <div class="work-links">
+        {{ with .paper  }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+        {{ with .code   }}<a href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}
+        {{ with .poster }}<a href="{{ . }}" target="_blank" rel="noopener">Poster</a>{{ end }}
+        {{ with .slides }}<a href="{{ . }}" target="_blank" rel="noopener">Slides</a>{{ end }}
+      </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
   {{ else }}
   <p style="color: var(--text-muted);">Nothing here yet.</p>
   {{ end }}
