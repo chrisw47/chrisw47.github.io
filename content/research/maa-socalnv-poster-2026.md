@@ -4,8 +4,8 @@ title: "Analyzing an organism's sensors using Maximum Entropy models with bias, 
 authors: "Christopher Wang, Elianna Schimke, Tristan Kako, Aiden Gao, Martina Lamberti, Joost le Feber, Sarah Marzen"
 venue: "MAA SoCal-Nevada Section Meeting"
 year: 2026
-category: "talk"
-description: "This paper proposes bias-variance and confusion-matrix analysis, built on Maximum Entropy models, as an alternative to mutual information for studying how biological sensors encode information about their environment. It applies the method to examples such as ligand-receptor binding and neural spin-glass models, and finds that cultured neural networks show memory without much prediction."
+category: "poster session"
+description: "Refer to the bioRxiv preprint under the same title for a description."
 links:
   poster: "/files/research/maa_socal-nv_sectionmeeting26_poster.pdf"
 ---

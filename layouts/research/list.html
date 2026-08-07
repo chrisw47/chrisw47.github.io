@@ -7,7 +7,7 @@
   </div>
 
   {{ $papers := where .Pages "Params.category" "paper" }}
-  {{ $talks := where .Pages "Params.category" "talk" }}
+  {{ $talks := (where .Pages "Params.category" "talk") | union (where .Pages "Params.category" "poster session") }}
 
   {{ if .Pages }}
 
