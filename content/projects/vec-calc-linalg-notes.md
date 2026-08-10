@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Calculus III / Vector Calculus and Linear Algebra Notes (WIP)"
-date: 2026-06-17
+date: 2025-12-22
 lastmod: 2026-06-17
 wip: true
 description: "A work-in-progress, relatively comprehensive set of notes covering Calculus III / Vector Calculus and Linear Algebra, written in TeX."

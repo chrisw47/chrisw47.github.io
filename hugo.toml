@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Chris Wang'
 enableGitInfo = true
 
+[frontmatter]
+  lastmod = ['lastmod', ':git', 'date', 'publishdate']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -13,7 +16,7 @@ enableGitInfo = true
     noClasses = true
 
 [params]
-  description = "Chris Wang — researcher and developer"
+  description = "Chris Wang — researcher"
   author = "Chris Wang"
 
 [menu]
@@ -30,6 +33,10 @@ enableGitInfo = true
     url = "/hobbies/"
     weight = 3
   [[menu.main]]
+    name = "Scribbles"
+    url = "/scribbles/"
+    weight = 4
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
