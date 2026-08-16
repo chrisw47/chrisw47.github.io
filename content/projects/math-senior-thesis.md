@@ -2,7 +2,7 @@
 draft: false
 title: "A Mathematical Supplement For First-Year Physicists"
 date: 2025-04-18
-description: "My senior thesis in Mathematics at Pomona College, advised by Professor Edray Goins. I designed and piloted a set of mathematical supplement modules for first-year physics students, aimed at bridging the gap between students' math preparation and the quantitative demands of the physics curriculum."
+description: "My senior thesis in Mathematics at Pomona College, advised by Professor Edray Goins."
 tags: ["math", "thesis"]
 ---
 

@@ -3,16 +3,12 @@ title: "Contact"
 layout: "contact"
 ---
 
-For research queries, reach me at my institution-affiliated Pomona email. For other matters, reach me at my personal gmail.
+For direct communication, please reach me at my institution-affiliated Pomona email.
 
 <ul class="contact-links">
   <li>
     <span class="contact-label">Institutional Email</span>
     <a href="mailto:cywb2021@mymail.pomona.edu">cywb2021@mymail.pomona.edu</a>
-  </li>
-  <li>
-    <span class="contact-label">Personal Email</span>
-    <a href="mailto:chrispersonalemail123@gmail.com">chrispersonalemail123@gmail.com</a>
   </li>
   <li>
     <span class="contact-label">GitHub</span>

@@ -1,4 +1,4 @@
 ---
 title: "Research"
-description: "Research papers, preprints, presentations, and posters."
+description: "Research papers, presentations, and posters."
 ---

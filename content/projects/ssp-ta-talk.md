@@ -2,7 +2,7 @@
 draft: false
 title: "The Euler-Lagrange Equations: An Action-Packed Tango to Unravel the Elegance of Lagrangian Mechanics"
 date: 2025-07-15
-description: "A talk I gave to students while serving as TA/RM for SSP Astro '25. It introduces the action and the calculus of variations, and derives the Euler-Lagrange equations as an alternative to Newtonian mechanics built on energy and conservation laws."
+description: "A talk I gave to students while serving as TA/RM for SSP Astro '25, deriving and applying the Euler-Lagrange equations."
 tags: ["physics", "pedagogy", "talk"]
 ---
 

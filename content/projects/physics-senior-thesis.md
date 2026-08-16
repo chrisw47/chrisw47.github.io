@@ -2,7 +2,7 @@
 draft: false
 title: "Developing and Characterizing a Maximum Entropy Model to Analyze Memory and Prediction in Cultured Cortical Neurons"
 date: 2025-05-07
-description: "My senior thesis in Physics and Astronomy at Pomona College, advised by Sarah Marzen, Jorge Moreno, and Thomas Moore. I built a Maximum Entropy model to study how cultured cortical neurons encode memory of past stimuli and predict future ones, finding strong short-term memory but limited predictive power."
+description: "My senior thesis in Physics and Astronomy at Pomona College, advised by Sarah Marzen, Jorge Moreno, and Thomas Moore."
 tags: ["physics", "thesis"]
 ---
 

@@ -5,7 +5,7 @@ authors: "Christopher Wang, Elianna Schimke, Tristan Kako, Aiden Gao, Martina La
 venue: "MAA MathFest"
 year: 2026
 category: "talk"
-description: "Refer to the bioRxiv preprint under the same title for a description."
+description: 'Refer to the paper description under "Analyzing an organism’s sensors using Maximum Entropy models with bias, variance, and confusion matrices" for a complete description.'
 links:
   slides: "/files/research/mathfest_talk_2026.pdf"
 ---
